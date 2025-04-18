@@ -6,13 +6,26 @@
 - Node.js >= 18.x (LTS recommended)  
 - NPM >= 9.x  
 - Complete Backend Setup at [https://github.com/Mohammed-Jabir-CT/task-rocket-api](https://github.com/Mohammed-Jabir-CT/task-rocket-api)
+  
+## Installation Steps
 
-8. **Install Frontend Dependencies**  
+1. **Clone the Repository**  
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. **Copy Environment File**  
+   ```bash
+   cp .env.example .env
+   ```
+
+3. **Install Frontend Dependencies**  
    ```bash
    npm install
    ```
 
-9. **Run the Frontend Vite Dev Server**  
+4. **Run the Frontend Vite Dev Server**  
    This will start the frontend on [http://localhost:5173](http://localhost:5173):
    ```bash
    npm run dev
