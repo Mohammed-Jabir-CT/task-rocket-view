@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# Frontend Setup Guide (Vite + Laravel)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Requirements
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- Node.js >= 18.x (LTS recommended)  
+- NPM >= 9.x  
+- Complete Backend Setup at [https://github.com/Mohammed-Jabir-CT/task-rocket-api](https://github.com/Mohammed-Jabir-CT/task-rocket-api)
+
+8. **Install Frontend Dependencies**  
+   ```bash
+   npm install
+   ```
+
+9. **Run the Frontend Vite Dev Server**  
+   This will start the frontend on [http://localhost:5173](http://localhost:5173):
+   ```bash
+   npm run dev
+   ```
+
+## Default Login Credentials
+
+- **Email:** test@example.com  
+- **Password:** password
