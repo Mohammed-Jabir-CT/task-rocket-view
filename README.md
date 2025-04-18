@@ -1,5 +1,6 @@
 # Frontend Setup Guide (Vite + Laravel)
 
+
 ## Requirements
 
 - Node.js >= 18.x (LTS recommended)  
