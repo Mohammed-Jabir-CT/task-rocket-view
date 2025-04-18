@@ -15,10 +15,7 @@
    cd <project-folder>
    ```
 
-2. **Copy Environment File**  
-   ```bash
-   cp .env.example .env
-   ```
+2. **Copy Environment File From '.env.example' to '.env'**
 
 3. **Install Frontend Dependencies**  
    ```bash
